@@ -7,6 +7,9 @@
 --contact-color: var(--SLATE, #434455);
 --section-first-background-color: var(--NAVY-BLUE, #2E2F42);
 --heading-three-color: var(--NAVY-BLUE, #2E2F42);
+--heading-two-color: var(--NAVY-BLUE, #2E2F42);
+--footer-background: var(--NAVY-BLUE, #2E2F42);
+--p-footer-color: var(--CLOUD, #F4F4FD);
 }
 
 
@@ -28,7 +31,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 800;
 line-height: 1.17 /* 116.667% */
-letter-spacing : 0.03em;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none
 }
@@ -72,6 +75,7 @@ letter-spacing: 0.02em;
 
 .link{
 text-decoration:none 
+font-size: 16px
 }
 
 
@@ -126,15 +130,16 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.04em;
-cursor: 'pointer'
+cursor: pointer
+background-color: var(--IRIS, #4D5AE5);
 
 }
 
 .button:hover {
-    color: var(--IRIS, #4D5AE5);
+    background-color: #404BBF
 }
 .button:focus {
-   color: var(--IRIS, #4D5AE5);
+    background-color: #404BBF
 }
 
 
@@ -154,16 +159,54 @@ letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
 
 /* Body */
-font-family: Roboto;
+font-family: 'Roboto';
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 150% */
+line-height: 1.5; /* 150% */
 letter-spacing: 0.32px;
 }
 
 .paragraph {
     line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+.section-four{
+    background-color: #F4F4FD
+}
+
+
+.heading-two {
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: 'center';
+
+/* Header 2 */
+font-family: 'Roboto';
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.02;
+text-transform: 'capitalize';
+}
+
+.list-one {
+    background-color: #FFFFFF
+
+}
+
+.p-two {
+    color: var(--SLATE, #434455);
+    text-align: center;
+    
+    /* Body */
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
 }
 
@@ -181,6 +224,19 @@ letter-spacing: 0.32px;
 
 
 .footer {
-
+    background: var(--NAVY-BLUE, #2E2F42);
 }
+.span-footer {
+    color: #f4f4fd
+}
+.p-footer {
+    color: var(--CLOUD, #F4F4FD);
 
+/* Body */
+font-family: 'Roboto';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
+}

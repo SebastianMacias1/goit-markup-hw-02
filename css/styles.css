@@ -14,7 +14,7 @@
 .filters-button { background: var(--CLOUD, #F4F4FD);}
 
 
-.filters-button:hover:focus{
+.filters-button{
 background-color: #4D5AE5;
 }
 

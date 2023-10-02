@@ -1,6 +1,8 @@
 :root {
-    --brand-color:#4D5AE5
-    --background-footer-color:#2E2F42
+    --web-color: var(--IRIS, #4D5AE5);
+    --studio-color:var(--NAVY-BLUE, #2E2F42);
+    --background-body-color: var(--WHITE, #FFFFFF);
+    --background-footer-color: var(--NAVY-BLUE, #2E2F42);
 --f-link-color: var(--NAVY-BLUE, #2E2F42);
 --contact-link-color: var(--SLATE, #434455);
 }
@@ -9,21 +11,34 @@
 
 
 
-.body {
-    font-family: Roboto; sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: var(#FFFFFF);
 
 }
 
 
 .logo{
     color: var(--IRIS, #4D5AE5);
-font-family: Raleway;
+font-family: 'Raleway', sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
 line-height: 1.17 /* 116.667% */
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none
+}
+
+
+.span{
+    color: var(--NAVY-BLUE, #2E2F42);
+font-family: 'Raleway',sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 21px; /* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
 }
@@ -31,41 +46,51 @@ text-transform: uppercase;
 .list{
 
 }
+
 .first{
     color: var(--NAVY-BLUE, #2E2F42);
 
 /* Body Medium */
-font-family: Roboto;
+font-family: 'Roboto',sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5; /* 150% */
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
+
+
 .first:hover{
-    #404bbf
+   color: #404bbf
 }
+
+
 .first:focus{
-    #404bbf
+   color: #404bbf
 }
 
-
+.link{
+text-decoration:none 
+}
 
 
 
 .address{
-
+    font-style: normal
 }
+
 .contact-link{
     color: var(--SLATE, #434455);
 
 /* Body */
-font-family: Roboto;
+font-family: 'Roboto',sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.32px;
 }
+
+
 
 

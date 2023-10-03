@@ -10,7 +10,8 @@
 --heading-two-color: var(--NAVY-BLUE, #2E2F42);
 --footer-background: var(--NAVY-BLUE, #2E2F42);
 --p-footer-color: var(--CLOUD, #F4F4FD);
---filter-buttons-color: var(--IRIS, #4D5AE5);
+--blue-buttons-color: var(--WHITE, #FFF);
+--filter-button-color: var(--IRIS, #4D5AE5);
 }
 
 
@@ -258,8 +259,8 @@ letter-spacing: 0.02em;
 
 
 
-.filter-button {
-    color: var(--IRIS, #4D5AE5);
+.blue-button {
+    color: var(--WHITE, #FFF);
 text-align: center;
 
 /* Button Text */
@@ -269,6 +270,19 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.04em;
+}
+
+.filters-button { 
+    color: var(--IRIS, #4D5AE5);
+    text-align: center;
+    
+    /* Button Text */
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.04em;
 }
 
 .title-image {

@@ -12,6 +12,8 @@
 --p-footer-color: var(--CLOUD, #F4F4FD);
 --blue-buttons-color: var(--WHITE, #FFF);
 --filter-button-color: var(--IRIS, #4D5AE5);
+--title-image-color: var(--NAVY-BLUE, #2E2F42);
+--text-image-color: var(--SLATE, #434455);
 }
 
 
@@ -270,6 +272,8 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.04em;
+background: var(--OCEAN, #404BBF);
+cursor: pointer;
 }
 
 .filters-button { 
@@ -283,6 +287,8 @@ letter-spacing: 0.04em;
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.04em;
+    background: var(--CLOUD, #F4F4FD);
+    cursor: pointer;
 }
 
 .title-image {

@@ -46,7 +46,7 @@ text-transform: uppercase;
 .span{
     color: var(--NAVY-BLUE, #2E2F42);
 font-family: "Raleway",sans-serif;
-font-size: 16px;
+font-size: 18px;
 font-style: normal;
 font-weight: 800;
 line-height: 1.17; /* 116.667% */

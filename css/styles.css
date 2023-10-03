@@ -30,8 +30,9 @@ font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 800;
-line-height: 1.17 /* 116.667% */
-letter-spacing: 0.03em
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.03em;
+text-transform: uppercase;
 
 }
 .link{
@@ -43,7 +44,7 @@ letter-spacing: 0.03em
 .span{
     color: var(--NAVY-BLUE, #2E2F42);
 font-family: 'Raleway',sans-serif;
-font-size: 18px;
+font-size: 16px;
 font-style: normal;
 font-weight: 800;
 line-height: 1.17; /* 116.667% */
@@ -64,7 +65,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
-text-decoration:none 
+text-decoration:none; 
 }
 
 
@@ -118,7 +119,7 @@ color:#404bbf
     font-weight: 700;
     line-height: 1.07; /* 107.143% */
     letter-spacing: 0.02em;
-    text-align: center
+    text-align: center;
 }
 
 .button {
@@ -133,17 +134,17 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.04em;
 }
 .button {
-    cursor: pointer
+    cursor: pointer;
 }
 .button { 
     background-color: var(--IRIS, #4D5AE5);
 }
 
 .button:hover {
-    background-color: #404BBF
+    background-color: #404BBF;
 }
 .button:focus {
-    background-color: #404BBF
+    background-color: #404BBF;
 }
 
 
@@ -178,7 +179,7 @@ letter-spacing: 0.32px;
 
 
 .section-four{
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
 }
 .section-three {
 
@@ -204,7 +205,7 @@ letter-spacing: 0.02;
 
 
 .list-one {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 
 }
 
@@ -238,7 +239,7 @@ letter-spacing: 0.02;
     background: var(--NAVY-BLUE, #2E2F42);
 }
 .span-footer {
-    color: #f4f4fd
+    color: #f4f4fd;
 }
 .p-footer {
     color: var(--CLOUD, #F4F4FD);

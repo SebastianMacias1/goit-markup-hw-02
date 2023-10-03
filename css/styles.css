@@ -234,7 +234,16 @@ letter-spacing: 0.02;
 
 
 
-
+.logo-footer {
+    color: var(--IRIS, #4D5AE5);
+font-family: 'Raleway';
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
 }

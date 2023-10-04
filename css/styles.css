@@ -10,7 +10,6 @@
 --heading-two-color: var(--NAVY-BLUE, #2E2F42);
 --footer-background: var(--NAVY-BLUE, #2E2F42);
 --p-footer-color: var(--CLOUD, #F4F4FD);
---blue-buttons-color: var(--WHITE, #FFF);
 --filter-button-color: var(--IRIS, #4D5AE5);
 --title-image-color: var(--NAVY-BLUE, #2E2F42);
 --text-image-color: var(--SLATE, #434455);
@@ -261,20 +260,7 @@ letter-spacing: 0.02em;
 
 
 
-.blue-button {
-    color: var(--WHITE, #FFF);
-text-align: center;
 
-/* Button Text */
-font-family: "Roboto",sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.04em;
-background: var(--OCEAN, #404BBF);
-cursor: pointer;
-}
 
 .filters-button { 
     color: var(--IRIS, #4D5AE5);
@@ -289,6 +275,13 @@ cursor: pointer;
     letter-spacing: 0.04em;
     background: var(--CLOUD, #F4F4FD);
     cursor: pointer;
+}
+.filters-button:hover{
+    color: var(--IRIS, #4D5AE5);
+}
+
+.filters-button:focus{
+    background: var(--CLOUD, #F4F4FD);
 }
 
 .title-image {

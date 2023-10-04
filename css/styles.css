@@ -277,11 +277,13 @@ letter-spacing: 0.02em;
     cursor: pointer;
 }
 .filters-button:hover{
-    color: #FFFFFF
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 .filters-button:focus{
-    background-color: #404BBF
+    background-color: #404BBF;
+    color: #FFFFFF;
 }
 .filters-button:active{
     background-color: #404BBF

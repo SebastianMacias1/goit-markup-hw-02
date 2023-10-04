@@ -277,11 +277,14 @@ letter-spacing: 0.02em;
     cursor: pointer;
 }
 .filters-button:hover{
-    color: var(--IRIS, #4D5AE5);
+    color: #FFFFFF
 }
 
 .filters-button:focus{
-    background: var(--CLOUD, #F4F4FD);
+    background-color: #404BBF
+}
+.filters-button:active{
+    background-color: #404BBF
 }
 
 .title-image {

@@ -314,3 +314,9 @@ letter-spacing: 0.32px;
 .section-three {
     background-color: #F4F4FD;
 }
+.p-portfolio {
+    font-size: 16px;
+    letter-spacing: 0,02em;
+    line-height: 1,5;
+    color: #434455;
+}
